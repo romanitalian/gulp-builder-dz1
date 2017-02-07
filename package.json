@@ -11,10 +11,10 @@
     "gulp-autoprefixer": "~3.1.1",
     "gulp-cheerio": "~0.6.2",
     "gulp-concat": "~2.6.1",
-    "gulp-concat-css": "~2.3.0",
+    "gulp-concat-css": "^2.3.0",
     "gulp-csso": "~2.0.0",
     "gulp-eslint": "~3.0.1",
-    "gulp-load-plugins": "~1.5.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-notify": "~3.0.0",
     "gulp-pug": "~3.2.0",
     "gulp-replace": "~0.5.4",
@@ -25,6 +25,8 @@
     "jquery": "~3.1.1"
   },
   "dependencies": {
+    "browser-sync": "^2.18.7",
+    "del": "^2.2.2",
     "normalize.css": "~5.0.0"
   }
 }
